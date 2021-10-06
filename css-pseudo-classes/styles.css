@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(2n+1) {
+  background-color: rgb(190, 188, 188);
+}
