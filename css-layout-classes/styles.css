@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-left: 5px;
+}
+
+#container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+/* ROW 1 BELOW */
+
+.column1 {
+  width: 100%;
+}
+
+.column2-image1 {
+  width: 33%;
+}
+
+.column2-text1 {
+  width: 33%;
+}
+
+.column2-image2 {
+  width: 33%;
+}
+
+/* ROW 4 BELOW */
+
+.column4-text1 {
+  width: 66%;
+}
+
+/* ROW 5 BELOW */
+
+.column5-image1 {
+  width: 33%;
+}
+
+.column5-text1 {
+  width: 66%;
+}
