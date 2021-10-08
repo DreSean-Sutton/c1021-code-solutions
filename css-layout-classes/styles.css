@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 
-h1 {
-  margin-left: 5px;
+body {
+  font-family: sans-serif;
 }
 
 #container {
@@ -14,44 +14,24 @@ h1 {
 
 .row {
   display: flex;
-  flex-direction: row;
-  width: 100%;
 }
 
 img {
   width: 100%;
 }
 
-/* ROW 1 BELOW */
-
-.column1 {
+.column-full {
   width: 100%;
 }
 
-.column2-image1 {
+.column-one-third {
   width: 33%;
 }
 
-.column2-text1 {
-  width: 33%;
-}
-
-.column2-image2 {
-  width: 33%;
-}
-
-/* ROW 4 BELOW */
-
-.column4-text1 {
+.column-two-thirds {
   width: 66%;
 }
 
-/* ROW 5 BELOW */
-
-.column5-image1 {
-  width: 33%;
-}
-
-.column5-text1 {
-  width: 66%;
+.column-one-quarter {
+  width: 25%;
 }
