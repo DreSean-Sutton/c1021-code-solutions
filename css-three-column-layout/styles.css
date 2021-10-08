@@ -13,10 +13,6 @@
   justify-content: center;
 }
 
-.image-border {
-  border-radius: 50px;
-}
-
 body {
   color: white;
   text-align: center;
@@ -24,8 +20,8 @@ body {
 
 img {
   width: 50%;
-  border-radius: 100px;
   background-color: white;
+  border-radius: 100px;
 }
 
 .column-full {
@@ -39,4 +35,8 @@ img {
 
 .column-padding {
   padding: 10px;
+}
+
+.circle {
+  border-radius: 100px;
 }
