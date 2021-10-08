@@ -1,0 +1,40 @@
+.container {
+  /* max-height: 800px; */
+  background-color: rgb(3, 159, 221);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+.row {
+  align-items: baseline;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border-image-width: 20px;
+}
+
+.border-radius {
+  border-radius: 50px;
+}
+
+body {
+  color: white;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+  border-radius: 100px;
+  background-color: white;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-one-third {
+  /* border-width: 100%; */
+  width: calc(100% / 5);
+  padding: 10px;
+}
