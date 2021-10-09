@@ -3,7 +3,7 @@
   background-color: rgb(3, 159, 221);
   margin-left: auto;
   margin-right: auto;
-  padding: 5px;
+  padding: 50px 0;
 }
 
 .row {
@@ -13,6 +13,11 @@
   justify-content: center;
 }
 
+h1,
+p {
+  margin: 0 30px;
+}
+
 body {
   color: white;
   text-align: center;
@@ -20,8 +25,6 @@ body {
 
 img {
   width: 50%;
-  background-color: white;
-  border-radius: 100px;
 }
 
 .column-full {
@@ -29,14 +32,19 @@ img {
 }
 
 .column-one-fifth {
-  /* border-width: 100%; */
   width: calc(100% / 5);
 }
 
 .column-padding {
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .circle {
-  border-radius: 100px;
+  border-radius: 200px;
+  background-color: white;
+  height: 120px;
+  margin-left: 90px;
+  width: 120px;
+  margin-top: 40px;
+  padding-top: 30px;
 }
