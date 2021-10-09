@@ -1,0 +1,93 @@
+html {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  margin-bottom: 56px;
+}
+
+body {
+  font-family: karla, sans-serif;
+}
+
+h1 {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-top: 56px;
+  font-weight: 900;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+h6 {
+  font-weight: 900;
+  font-size: 11px;
+  letter-spacing: 0.25px;
+}
+
+img {
+  width: 65%;
+  margin-left: 22%;
+  margin-top: 7%;
+}
+
+p {
+  line-height: 1.25rem;
+  font-size: 10px;
+}
+
+button {
+  background-color: white;
+  color: rgb(216, 105, 99);
+  margin-left: 8%;
+  margin-top: 24px;
+  padding: 6px 24px;
+  font-size: 9.25px;
+  font-weight: 700;
+  border-radius: 1px;
+  border: 1.75px solid rgb(216, 105, 99);
+  letter-spacing: 0.25px;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.column-one-third {
+  width: calc(100% / 3);
+}
+
+.column-two-third {
+  width: calc(200% / 3);
+}
+
+.pMargin {
+  margin: 0 18% 3%;
+}
+
+.h1MarginT {
+  margin-top: 50px;
+}
+
+.tAC {
+  text-align: center;
+}
+
+.divPd {
+  padding: 0 13px;
+}
