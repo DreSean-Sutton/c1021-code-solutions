@@ -17,8 +17,8 @@ var myCar = {
   year: 2009
 };
 
-myCar.color = 'Blue';
-myCar.isConvertible = false;
+myCar['color'] = 'Blue';
+myCar['isConvertible'] = false;
 
 console.log('My vehicle color:', myCar.color);
 console.log('Is my car a convertible:', myCar.isConvertible);
