@@ -1,5 +1,4 @@
 .container {
-  /* max-height: 800px; */
   background-color: rgb(3, 159, 221);
   margin-left: auto;
   margin-right: auto;
@@ -21,6 +20,7 @@ p {
 body {
   color: white;
   text-align: center;
+  font-family: lato, sans-serif;
 }
 
 img {
@@ -33,10 +33,6 @@ img {
 
 .column-one-fifth {
   width: calc(100% / 5);
-}
-
-.column-padding {
-  /* padding: 10px; */
 }
 
 .circle {
