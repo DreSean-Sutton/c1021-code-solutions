@@ -1,0 +1,46 @@
+.container {
+  background-color: rgb(3, 159, 221);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+  justify-content: center;
+}
+
+h1,
+p {
+  margin: 0 30px;
+}
+
+body {
+  color: white;
+  text-align: center;
+  font-family: lato, sans-serif;
+}
+
+img {
+  width: 50%;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-one-fifth {
+  width: calc(100% / 5);
+}
+
+.circle {
+  border-radius: 200px;
+  background-color: white;
+  height: 120px;
+  margin-left: 90px;
+  width: 120px;
+  margin-top: 40px;
+  padding-top: 30px;
+}
