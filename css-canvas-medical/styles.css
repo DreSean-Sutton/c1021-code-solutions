@@ -1,0 +1,97 @@
+/* html {
+
+} */
+
+img {
+  width: 100%;
+}
+
+button {
+  background-color: rgb(41, 68, 100);
+}
+
+p {
+  font-family: Avenir, sans-serif;
+  font-weight: lighter;
+  color: rgb(120, 120, 120);
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-one-third {
+  width: calc(100% / 3);
+}
+
+.column-two-thirds {
+  width: calc(200% / 3);
+}
+
+.column-half {
+  width: 50%;
+}
+
+.column-one-quarter {
+  width: 25%;
+}
+
+.column-tenth {
+  width: 10%;
+}
+
+.tAC {
+  text-align: center;
+}
+
+.grayletters {
+  color: rgb(120, 120, 120);
+}
+
+.whitesmoke {
+  background-color: whitesmoke;
+}
+
+/* .basicFF {
+  font-family: Avenir, sans-serif;
+} */
+
+.specialFF {
+  font-family: 'tiempos headline', serif;
+}
+
+.lineHeight {
+  line-height: 1.5rem;
+}
+
+/* SECTION 3 CSS BELOW */
+
+.s3HeadMargin {
+  margin: 5% 20% 1.5%;
+}
+
+.s3Row1PMargin {
+  margin: 0% 27%;
+}
+
+.s3Row2Margin {
+  margin: 5% 5%;
+}
+
+.s3Row2PB {
+  padding-bottom: 7%;
+}
+
+/* SECTION 4 CSS BELOW */
+
+/* SECTION 5 CSS BELOW */
