@@ -1,6 +1,8 @@
-/* html {
-
-} */
+html {
+  font-family: Avenir, sans-serif;
+  font-weight: lighter;
+  color: rgb(120, 120, 120);
+}
 
 img {
   width: 100%;
@@ -8,12 +10,9 @@ img {
 
 button {
   background-color: rgb(41, 68, 100);
-}
-
-p {
-  font-family: Avenir, sans-serif;
-  font-weight: lighter;
-  color: rgb(120, 120, 120);
+  color: white;
+  border: 1px solid rgb(41, 68, 100);
+  border-radius: 3px;
 }
 
 .container {
@@ -54,6 +53,10 @@ p {
   text-align: center;
 }
 
+.justifyCSB {
+  justify-content: space-between;
+}
+
 .grayletters {
   color: rgb(120, 120, 120);
 }
@@ -61,10 +64,6 @@ p {
 .whitesmoke {
   background-color: whitesmoke;
 }
-
-/* .basicFF {
-  font-family: Avenir, sans-serif;
-} */
 
 .specialFF {
   font-family: 'tiempos headline', serif;
@@ -85,13 +84,29 @@ p {
 }
 
 .s3Row2Margin {
-  margin: 5% 5%;
+  margin: 5% 5% 3%;
 }
 
 .s3Row2PB {
-  padding-bottom: 7%;
+  padding-bottom: 5%;
 }
 
 /* SECTION 4 CSS BELOW */
+.s4RowMargin {
+  margin: 0% 5%;
+}
+
+.s4Button {
+  font-size: 10px;
+  padding: 8px 26px;
+}
+
+.s4PFontSize {
+  font-size: 10px;
+}
+
+/* .s4HeadMargin {
+
+} */
 
 /* SECTION 5 CSS BELOW */
