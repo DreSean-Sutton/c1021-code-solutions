@@ -15,3 +15,9 @@ var bookshelf = [
     author: 'Phil Sturgeon & Laura Bohill'
   }
 ];
+
+console.log('JSON Quick Syntax Author\'s name:', bookshelf[1].author);
+
+console.log('The ISBN of the first book:', bookshelf[0].isbn);
+
+console.log('Title of first book', bookshelf[2].title);
