@@ -10,8 +10,8 @@ function greet(name) {
   return name;
 }
 
-var myName = greet('Dre');
-console.log('Greeting:', 'Hey, ' + myName);
+var myName = greet('Hey, ' + 'Dre');
+console.log('Greeting:', myName);
 
 function getArea(x, y) {
   return (x * y);
