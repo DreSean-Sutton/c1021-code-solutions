@@ -66,11 +66,18 @@ button {
 }
 
 .specialFF {
-  font-family: 'tiempos headline', serif;
+  font-family: 'Tiempos Headline', serif;
+  font-style: normal;
+  font-weight: normal;
+  src: url('TiemposHeadline-Regular.woff2') format('woff2');
 }
 
 .lineHeight {
   line-height: 1.5rem;
+}
+
+.aIBaseline {
+  align-items: baseline;
 }
 
 /* SECTION 1 CSS BELOW */
@@ -88,7 +95,7 @@ button {
 }
 
 .s3Row2Margin {
-  margin: 5% 5% 3%;
+  margin: 5% 5% 1%;
 }
 
 .s3Row2PB {
@@ -109,13 +116,45 @@ button {
   font-size: 10px;
 }
 
-/* .s4HeadMargin {
+.s4PB {
+  padding-bottom: 2%;
+}
 
-} */
+.s4Relate {
+  position: relative;
+  bottom: 7px;
+}
 
 /* SECTION 5 CSS BELOW */
 
-.s5ContainerB {
+.s5ContainerC {
   background-color: rgb(82, 83, 81);
   color: white;
+}
+
+.s5FontSize {
+  font-size: 11px;
+}
+
+.s6Relate {
+  position: relative;
+  bottom: 1.5rem;
+}
+
+.s5LineHeight {
+  line-height: 0.5rem;
+}
+
+.s5ContainerP {
+  padding: 3% 0 5%;
+}
+
+/* SECTION 6 BELOW */
+
+.s6Padding {
+  padding: 5% 0%;
+}
+
+.s6FontWeight {
+  font-weight: bold;
 }
