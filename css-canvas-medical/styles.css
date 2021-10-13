@@ -82,7 +82,39 @@ button {
 
 /* SECTION 1 CSS BELOW */
 
+.s1HeadColor {
+  color: rgb(41, 68, 100);
+}
+
+.s1BB {
+  border-bottom: 0.25px solid whitesmoke;
+}
+
+.s1PLR {
+  padding: 0 5px;
+}
+
+.s1ButtonP {
+  padding: 6px 15px;
+}
+
+.whiteColor {
+  color: white;
+}
+
 /* SECTION 2 CSS BELOW */
+.s2Absolute {
+  position: absolute;
+  top: 30%;
+}
+
+.s2Relative {
+  position: relative;
+}
+
+.s2TextMargin {
+  padding: 0 80% 0 7%;
+}
 
 /* SECTION 3 CSS BELOW */
 
