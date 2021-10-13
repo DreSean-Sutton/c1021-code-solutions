@@ -1,37 +1,36 @@
 function convertMinutesToSeconds(x) {
-  var secondsCalculated = x * 60;
-  console.log('Amount of seconds:', secondsCalculated);
-  return secondsCalculated;
+  return x * 60;
+
 }
 
-convertMinutesToSeconds(10);
+var secondsFromMinutes = convertMinutesToSeconds(10);
+console.log('Amount of seconds:', secondsFromMinutes);
 
 function greet(name) {
-  console.log('Greeting:', 'Hey, ' + name);
   return name;
 }
 
-greet('Dre');
+var myName = greet('Dre');
+console.log('Greeting:', 'Hey, ' + myName);
 
 function getArea(x, y) {
-  console.log('The area is:', x * y);
-  return (x, y);
+  return (x * y);
 }
 
-getArea(12, 8);
+var myHouseArea = getArea(12, 8);
+console.log('The area is:', myHouseArea);
 
 function getFirstName(person) {
-  var fullName = person.firstName;
-  console.log('My first name is:', fullName);
-  return fullName;
+  var firstName = person.firstName;
+  return firstName;
 }
-
-getFirstName({ firstName: 'Dre Sean', lastName: 'Sutton' });
+var myFirstName = getFirstName({ firstName: 'Dre Sean', lastName: 'Sutton' });
+console.log('My first name is:', myFirstName);
 
 function getLastElement(array) {
   var last = array.length - 1;
-  console.log(array[last]);
   return array[last];
 }
 
-getLastElement(['propane', 'and', 'propane', 'accessories']);
+var lastInArray = getLastElement(['propane', 'and', 'propane', 'accessories']);
+console.log('The last index:', lastInArray);
