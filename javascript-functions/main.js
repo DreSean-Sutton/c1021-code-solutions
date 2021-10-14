@@ -7,11 +7,10 @@ var secondsFromMinutes = convertMinutesToSeconds(10);
 console.log('Amount of seconds:', secondsFromMinutes);
 
 function greet(name) {
-  return name;
+  return 'hey, ' + name;
 }
-
-var myName = greet('Hey, ' + 'Dre');
-console.log('Greeting:', myName);
+var myName = greet('Dre');
+console.log(myName);
 
 function getArea(x, y) {
   return (x * y);
