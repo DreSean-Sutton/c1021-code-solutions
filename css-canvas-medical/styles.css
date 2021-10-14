@@ -13,6 +13,8 @@ button {
   color: white;
   border: 1px solid rgb(41, 68, 100);
   border-radius: 3px;
+  font-size: 10px;
+  padding: 11px 35px;
 }
 
 .container {
@@ -39,6 +41,10 @@ button {
 
 .column-half {
   width: 50%;
+}
+
+.column-thirty-percent {
+  width: 30%;
 }
 
 .column-quarter {
@@ -105,15 +111,26 @@ button {
 /* SECTION 2 CSS BELOW */
 .s2Absolute {
   position: absolute;
-  top: 30%;
+  top: 10rem;
 }
 
-.s2Relative {
-  position: relative;
+.overlay {
+  background: linear-gradient(transparent, rgba(120, 120, 120, 0.6));
+  width: 900px;
+  height: 505px;
+  position: absolute;
 }
 
-.s2TextMargin {
-  padding: 0 80% 0 7%;
+.s2TextMarginL {
+  padding-left: 7%;
+}
+
+.s2PTB {
+  padding: 3rem 0;
+}
+
+.s2FontSize {
+  font-size: 13px;
 }
 
 /* SECTION 3 CSS BELOW */
@@ -139,13 +156,12 @@ button {
   margin: 0% 5%;
 }
 
-.s4Button {
-  font-size: 10px;
-  padding: 8px 26px;
+.s4HfontSize {
+  font-size: 1.5rem;
 }
 
 .s4PFontSize {
-  font-size: 10px;
+  font-size: 0.75rem;
 }
 
 .s4PB {
@@ -168,9 +184,8 @@ button {
   font-size: 11px;
 }
 
-.s6Relate {
-  position: relative;
-  bottom: 1.5rem;
+.s5PFontSize {
+  font-size: 10px;
 }
 
 .s5LineHeight {
@@ -189,4 +204,9 @@ button {
 
 .s6FontWeight {
   font-weight: bold;
+}
+
+.s6Relate {
+  position: relative;
+  bottom: 1.5rem;
 }
