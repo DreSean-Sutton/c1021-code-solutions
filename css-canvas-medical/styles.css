@@ -96,6 +96,10 @@ button {
   border-bottom: 0.25px solid whitesmoke;
 }
 
+.nav-margin {
+  margin-left: 3.17rem;
+}
+
 .s1PLR {
   padding: 0 5px;
 }
@@ -158,6 +162,10 @@ button {
 
 .s4HfontSize {
   font-size: 1.5rem;
+}
+
+.s4-button-margin {
+  margin-left: 7rem;
 }
 
 .s4PFontSize {
