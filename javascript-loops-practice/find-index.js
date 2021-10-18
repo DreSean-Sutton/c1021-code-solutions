@@ -1,12 +1,11 @@
 /* exported findIndex */
 function findIndex(array, value) {
-  var sameNumbers = [];
+  var arrayIndex = [];
   for (var i = 0; i < array.length; i++) {
     if (array === value) {
-      (sameNumbers.push(value));
-    } else {
-      sameNumbers = -1;
+      arrayIndex = [i];
+      return arrayIndex;
     }
   }
-  return sameNumbers;
+  return -1;
 }
