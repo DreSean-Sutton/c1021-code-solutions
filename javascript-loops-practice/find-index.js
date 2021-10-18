@@ -2,7 +2,11 @@
 function findIndex(array, value) {
   var sameNumbers = [];
   for (var i = 0; i < array.length; i++) {
-    sameNumbers = value.findIndex(array[i]);
+    if (array === value) {
+      (sameNumbers.push(value));
+    } else {
+      sameNumbers = -1;
+    }
   }
   return sameNumbers;
 }
