@@ -1,20 +1,18 @@
 html {
   font-family: 'DM Sans', sans-serif;
+  background-color: black;
+  font-weight: bold;
 }
 
 img {
   width: 100%;
 }
 
-body {
-  font-weight: bold;
-}
-
 p {
   font-size: 14px;
 }
 
-span,
+span.gray-color,
 s {
   color: rgb(192, 191, 191);
 }
@@ -63,4 +61,17 @@ s {
 
 .tAC {
   text-align: center;
+}
+
+.money-background-color {
+  background-color: rgb(255, 242, 231);
+}
+
+.container-background-color {
+  background-color: white;
+  padding: 0% 17% 2%;
+}
+
+.MT-10-percent {
+  margin-top: 10%;
 }
