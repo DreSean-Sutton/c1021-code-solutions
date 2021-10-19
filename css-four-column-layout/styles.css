@@ -1,0 +1,65 @@
+html {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  font-family: 'Barlow', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+h2,
+h4 {
+  font-weight: 800;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.container {
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-one-third {
+  width: calc(100% / 3);
+}
+
+.column-two-thirds {
+  width: calc(200% / 3);
+}
+
+.column-half {
+  width: 50%;
+}
+
+.column-one-fourth {
+  width: 25%;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.tAC {
+  text-align: center;
+}
+
+.icon-width {
+  width: 25%;
+}
+
+.padding-LR-15px {
+  padding: 0 15px;
+}

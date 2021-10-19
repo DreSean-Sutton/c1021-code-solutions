@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: BrandonGrotesque-Regular, sans-serif;
+}
+
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 20px;
+}
+
+label {
+  font-size: 15px;
+  padding: 0.75rem;
+  font-weight: bold;
+}
+
+h1 {
+  color: rgb(241, 111, 4);
+  text-align: center;
+  font-size: 35px;
+}
+
+input {
+  border-radius: 6px;
+  border-color: rgb(207, 205, 205);
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+}
+
+select {
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.137);
+  font-size: 16px;
+}
+
+.submit {
+  width: 15%;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(241, 111, 4);
+  margin-left: 85%;
+  padding: 0.75rem;
+  font-size: 20px;
+}
