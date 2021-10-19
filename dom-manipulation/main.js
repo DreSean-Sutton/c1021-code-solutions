@@ -1,22 +1,23 @@
-// var numberOfClicks = 0
+var numberOfClicks = 1;
 
-// var $hotButton = document.querySelector('.hot-button');
-// var $clickCount = document.querySelector('.click-count');
-// $hotButton.addEventListener('click', clickCount);
+var $hotButton = document.querySelector('.hot-button');
+var $clickCount = document.querySelector('.click-count');
 
-// /* PseudoCode:
-// 3 storage place for 3 variables
-// 1 storage place is given the value of .hot-button
-// 2nd storage place is given the value of .click-count
-// need number to start at 0 and each time it's clicked it goes up by 1 up to 25.
-// need number to only go up if it is clicked on.
-// number of clicks must be shown at all times
-// */
+$hotButton.addEventListener('click', clickCount);
 
-// function clickCount(event) {
-//   numberOfClicks.push(event);
-//   console.log('numberOfClicks:', numberOfClicks);
-//   numberOfClicks++
-// }
-
-// var $clickText = document.querySelector('button.textContent');
+function clickCount(event) {
+  $clickCount.textContent = 'Clicks: ' + numberOfClicks++;
+  if (numberOfClicks < 4) {
+    $hotButton.className = 'hot-button cold';
+  } else if (numberOfClicks < 7) {
+    $hotButton.className = 'hot-button cool';
+  } else if (numberOfClicks < 10) {
+    $hotButton.className = 'hot-button tepid';
+  } else if (numberOfClicks < 13) {
+    $hotButton.className = 'hot-button warm';
+  } else if (numberOfClicks < 16) {
+    $hotButton.className = 'hot-button hot';
+  } else {
+    $hotButton.className = 'hot-button nuclear';
+  }
+}
