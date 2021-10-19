@@ -75,3 +75,7 @@ s {
 .MT-10-percent {
   margin-top: 10%;
 }
+
+.padding-LR {
+  padding: 0 7px;
+}
