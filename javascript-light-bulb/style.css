@@ -46,4 +46,5 @@ button {
 
 .gray-lightbulb {
   background-color: rgb(37, 37, 37);
+  box-shadow: 0 -15px rgb(10, 10, 10);
 }
