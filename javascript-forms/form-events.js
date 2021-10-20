@@ -1,10 +1,17 @@
 
 var $userName = document.querySelector('#user-name');
-var $userEmail = document.querySelector('#user-email');
-var $userMessage = document.querySelector('#user-message');
-
 $userName.addEventListener('focus', handleFocus);
+$userName.addEventListener('blur', handleBlur);
+$userName.addEventListener('input', handleInput);
+
+var $userEmail = document.querySelector('#user-email');
+$userEmail.addEventListener('focus', handleFocus);
 $userEmail.addEventListener('blur', handleBlur);
+$userEmail.addEventListener('input', handleInput);
+
+var $userMessage = document.querySelector('#user-message');
+$userMessage.addEventListener('focus', handleFocus);
+$userMessage.addEventListener('blur', handleBlur);
 $userMessage.addEventListener('input', handleInput);
 
 function handleFocus(event) {
