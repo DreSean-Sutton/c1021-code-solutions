@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+  background-color: rgb(50, 50, 50);
+}
+
+button {
+  border-radius: 4px;
+}
+
+h2 {
+  padding-top: 2rem;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  width: 100%;
+}
+
+.page-button-display {
+  padding: 10px 35px;
+  border: 0 solid rgb(74, 74, 233);
+  background-color: rgb(74, 74, 233);
+  color: white;
+  font-size: 20px;
+}
+
+.modal-button {
+  color: white;
+  background-color: rgb(235, 93, 93);
+  border: 0 solid rgb(235, 93, 93);
+  padding: 0.5rem 1.5rem;
+  font-size: 20px;
+  margin-top: 2.5rem;
+  box-shadow: 0 2px 0 grey;
+}
+
+.modal-display {
+  background-color: white;
+  border-radius: 5px;
+  position: fixed;
+  top: 16rem;
+}
+
+.container,
+.row,
+.column {
+  width: 500px;
+  height: 250px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.html-dark-background {
+  background-color: rgb(50, 50, 50);
+}
