@@ -35,30 +35,6 @@ s {
   width: 20%;
 }
 
-.column-one-third {
-  width: calc(100% / 3);
-}
-
-.column-two-thirds {
-  width: calc(200% / 3);
-}
-
-.column-half {
-  width: 50%;
-}
-
-.column-thirty-percent {
-  width: 30%;
-}
-
-.column-quarter {
-  width: 25%;
-}
-
-.column-tenth {
-  width: 10%;
-}
-
 .tAC {
   text-align: center;
 }
