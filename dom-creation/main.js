@@ -87,10 +87,9 @@ function renderPokemon(pokemon) {
   var pokemonP = document.createElement('p');
   pokemonP.textContent = pokemon.description;
   pokemonCardText.appendChild(pokemonP);
+  return columnDiv;
 }
 var rowDiv = document.querySelector('div.row');
 for (var i = 0; i < pokedex.length; i++) {
-  renderPokemon(pokedex[i]);
-  var allTogetherNow = document.createElement('node');
-  rowDiv.appendChild(allTogetherNow);
+  rowDiv.appendChild(renderPokemon(pokedex[i]));
 }
