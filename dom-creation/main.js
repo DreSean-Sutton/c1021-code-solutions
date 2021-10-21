@@ -60,7 +60,6 @@ var pokedex = [
 function renderPokemon(pokemon) {
 
   var columnDiv = document.createElement('div');
-  rowDiv.appendChild(columnDiv);
   columnDiv.setAttribute('class', 'column-third');
 
   var pokemonCardDiv = document.createElement('div');
