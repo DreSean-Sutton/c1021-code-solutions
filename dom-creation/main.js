@@ -76,15 +76,15 @@ function renderPokemon(pokemon) {
   pokemonCardText.setAttribute('class', 'pokemon-card-text');
   pokemonCardDiv.appendChild(pokemonCardText);
 
-  var pokemonH2 = document.createElement('pokemonH2');
+  var pokemonH2 = document.createElement('h2');
   pokemonH2.textContent = pokemon.name;
   pokemonCardText.appendChild(pokemonH2);
 
-  var pokemonH3 = document.createElement('pokemonH3');
+  var pokemonH3 = document.createElement('h3');
   pokemonH3.textContent = pokemon.number;
   pokemonCardText.appendChild(pokemonH3);
 
-  var pokemonP = document.createElement('pokemonP');
+  var pokemonP = document.createElement('p');
   pokemonP.textContent = pokemon.description;
   pokemonCardText.appendChild(pokemonP);
 }
