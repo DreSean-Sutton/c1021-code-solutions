@@ -1,6 +1,5 @@
 var $taskList = document.querySelector('.task-list');
 $taskList.addEventListener('click', eventCallback);
-// var $taskListItems = document.querySelectorAll('li');
 
 function eventCallback(event) {
   console.log('Event.targetResult:', event.target);
