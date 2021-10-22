@@ -5,12 +5,24 @@
 // $tabContainer.addEventListener('click', clickOnTab);
 
 // function clickOnTab(event) {
-//   if (event.target !== '.TAB') {
-//     event.target.className = 'tab active';
-//     var placeholder = event.target.closest('');
-//   } else {
-//     for (var i = 0; i < $allTabElements.length; i++) {
-//       event.target.className = 'tab';
+//   // var $closestParent = event.target.closest('DIV');
+//   if (event.target.matches('.tab') !== true) {
+//     return;
+//   }
+//   for (var tabIndex = 0; tabIndex < $allTabElements.length; tabIndex++) {
+//     if ($allTabElements[tabIndex] === event.target) {
+//       $allTabElements[tabIndex].className = 'tab active';
+//     } else {
+//       $allTabElements[tabIndex].className = 'tab';
 //     }
 //   }
+
+//   var $dataView = event.target.getAttribute('data-view');
+//   for(var viewIndex = 0; viewIndex < $allViewElements; viewIndex++)
+//     if()
+//       else
+// }
+
+// if ($allTabElements !== $allTabElements.getAttribute(class)) {
+//   return;
 // }
