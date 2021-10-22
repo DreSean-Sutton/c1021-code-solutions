@@ -35,11 +35,11 @@ button:focus {
   outline: none;
 }
 
-.column:first-child {
+div:first-child > img {
   transform: rotate(-30deg);
 }
 
-.column:last-child {
+div:last-child > img {
   transform: rotate(30deg);
 }
 
