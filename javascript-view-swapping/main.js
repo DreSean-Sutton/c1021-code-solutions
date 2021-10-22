@@ -5,11 +5,12 @@
 // $tabContainer.addEventListener('click', clickOnTab);
 
 // function clickOnTab(event) {
-//   if (event.target.matches('.tab') === true) {
-//     console.log('event.targetResult:', event.target);
+//   if (event.target !== '.TAB') {
 //     event.target.className = 'tab active';
+//     var placeholder = event.target.closest('');
 //   } else {
 //     for (var i = 0; i < $allTabElements.length; i++) {
-//     event.target.className = 'tab';
+//       event.target.className = 'tab';
+//     }
 //   }
 // }
