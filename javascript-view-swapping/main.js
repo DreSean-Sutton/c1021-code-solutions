@@ -5,7 +5,6 @@ var $allViewElements = document.querySelectorAll('.view');
 $tabContainer.addEventListener('click', clickOnTab);
 
 function clickOnTab(event) {
-  // debugger;
   if (!event.target.matches('.tab')) {
     return;
   }
@@ -19,11 +18,10 @@ function clickOnTab(event) {
   var $dataView = event.target.getAttribute('data-view');
 
   for (var viewIndex = 0; viewIndex < $allViewElements.length; viewIndex++) {
-    if ($allViewElements[viewIndex] !== $dataView) {
-      $allViewElements.className = 'view hidden';
+    if ($allViewElements[viewIndex].getAttribute('data-view') !== $dataView) {
+      $allViewElements[viewIndex].className = 'view hidden';
     } else {
       $allViewElements[viewIndex].className = 'view';
     }
   }
-  // return $tabContainer;
 }
