@@ -55,11 +55,11 @@ button {
   width: 10%;
 }
 
-.tAC {
+.text-align-center {
   text-align: center;
 }
 
-.justifyCSB {
+.justify-content-space-between {
   justify-content: space-between;
 }
 
@@ -73,9 +73,6 @@ button {
 
 .specialFF {
   font-family: 'Tiempos Headline', serif;
-  font-style: normal;
-  font-weight: normal;
-  src: url('TiemposHeadline-Regular.woff2') format('woff2');
 }
 
 .lineHeight {
