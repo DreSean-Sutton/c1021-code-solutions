@@ -1,0 +1,99 @@
+html {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 56px;
+}
+
+body {
+  font-family: karla, sans-serif;
+}
+
+h1 {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-top: 56px;
+  font-weight: 900;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+h6 {
+  font-weight: 900;
+  font-size: 11px;
+  letter-spacing: 0.25px;
+}
+
+img {
+  width: 65%;
+  margin-left: 45px;
+  margin-top: 7%;
+}
+
+p {
+  line-height: 1.25rem;
+  font-size: 10px;
+}
+
+button {
+  background-color: white;
+  color: rgb(216, 105, 99);
+  margin-top: 24px;
+  padding: 6px 24px;
+  font-size: 9.25px;
+  font-weight: 700;
+  border-radius: 1px;
+  border: 1.75px solid rgb(216, 105, 99);
+  letter-spacing: 0.25px;
+}
+
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.column-one-third {
+  width: calc(100% / 3);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column-two-third {
+  width: calc(200% / 3);
+}
+
+.pMargin {
+  margin: 0 18% 3%;
+}
+
+.h1MarginT {
+  margin-top: 50px;
+}
+
+.tAC {
+  text-align: center;
+}
+
+.divPd {
+  padding: 0 13px;
+}
+
+.adding-this-so-i-can-repush-this-assignment {
+  animation-iteration-count: infinite;
+}
