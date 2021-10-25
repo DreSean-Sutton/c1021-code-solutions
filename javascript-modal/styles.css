@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 1500px;
+  font-family: sans-serif;
+}
+
+body {
+  margin: auto;
+}
+
+button {
+  border-radius: 4px;
+}
+
+h2 {
+  padding-top: 2rem;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  width: 100%;
+}
+
+.page-button-display {
+  padding: 10px 40px;
+  border: 0 solid rgb(74, 74, 233);
+  background-color: rgb(74, 74, 233);
+  color: white;
+  font-size: 25px;
+  margin-left: 1%;
+  margin-top: 1%;
+  box-shadow: 0 2.5px 0 grey;
+}
+
+.modal-button {
+  color: white;
+  background-color: rgb(235, 70, 70);
+  border: 0 solid rgb(235, 70, 70);
+  padding: 0.5rem 1.5rem;
+  font-size: 25px;
+  margin-top: 2.5rem;
+  box-shadow: 0 2px 0 grey;
+  opacity: 100%;
+}
+
+.modal-display {
+  background-color: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 35%;
+}
+
+.display-none {
+  display: none;
+}
+
+.container,
+.row,
+.column {
+  width: 500px;
+  height: 250px;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  box-shadow: 0 0 0 2000px rgba(0, 0, 0, 0.85);
+}
