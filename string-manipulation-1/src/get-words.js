@@ -1,7 +1,10 @@
 /* exported getWords */
 
 function getWords(string) {
-  var arrayStrings = [];
-  arrayStrings.push(string.split(' '));
-  return arrayStrings;
+  var arrayString = [];
+  var splitString = string.split(' ');
+  for (var i = 0; i < string.length; i++) {
+    arrayString.push(splitString[i]);
+  }
+  return arrayString;
 }
