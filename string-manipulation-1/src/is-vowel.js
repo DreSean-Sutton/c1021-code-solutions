@@ -1,5 +1,17 @@
 /* exported isVowel */
-
+/* if the character is equal to capital or lowercase a
+return true
+/* if the character is equal to capital or lowercase e
+return true
+/* if the character is equal to capital or lowercase i
+return true
+/* if the character is equal to capital or lowercase o
+return true
+/* if the character is equal to capital or lowercase u
+return true
+otherwise,
+return false
+*/
 function isVowel(character) {
   if (character === 'a' || character === 'A') {
     return true;
