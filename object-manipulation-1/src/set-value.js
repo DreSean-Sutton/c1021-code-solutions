@@ -7,9 +7,5 @@
 return newObj
 */
 function setValue(object, key, value) {
-  if ((object === undefined) || (key === undefined) || (value === undefined)) {
-    return;
-  }
-  var newObj = object[key] = value;
-  return newObj;
+  object[key] = value;
 }
