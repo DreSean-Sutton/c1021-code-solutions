@@ -1,24 +1,37 @@
 /* exported ransomCase */
 /*
-1. assign an empty string to a variable called uppercaseLetter
-2. assign an empty string to a variable called upperCaseWord
-3. create a for loop that:
-  a. assigns 0 to i
-  b. i increases until it's equal to word.length
-  c. i increments by 2
-4. lowercase the full word.
-5. uppercase every letter at the index of i and assign it's value to uppercaseWord
-6. return uppercaseWord
+1. assign an empty string to the variable fullWord
+2. assign an empty string to the variable specialLetter
+3. assign an empty string to the variable capitalLetter
+4.lowercase string and assign it's value to the variable lowerCase;
+create a for loop that
+a. gives the var i a value of 0
+b. i increases up to string.length
+c. i increments by 1 each initialization
+5. if i % 2 === 0
+6. specialLetter is equal to lowercase at position i
+7.fullword += var specialLetter
+8. else
+9. specialLetter is equal to lowercase at position i
+10. capitalLetter is equal to capitalized specialLetter
+11. fullWord += capitalLetter
+12. return fullWord
 */
 
-// function ransomCase(word) {
-//   // debugger;
-//   var lowerCaseWord = '';
-//   var upperCaseWord = '';
-//   for (var i = 0; i < word.length; i = i + 2) {
-//     lowerCaseWord = word.toLowerCase();
-//     var splitWord = lowerCaseWord.split('');
-//     upperCaseWord += lowerCaseWord[i].toUppercase();
-//   }
-//   return upperCaseWord;
-// }
+function ransomCase(string) {
+  var fullWord = '';
+  var lowerCase = string.toLowerCase();
+  var specialLetter = '';
+  var capitalLetter = '';
+  for (var i = 0; i < string.length; i++) {
+    if (i % 2 === 0) {
+      specialLetter = lowerCase.charAt(i);
+      fullWord += specialLetter;
+    } else {
+      specialLetter = lowerCase.charAt(i);
+      capitalLetter = specialLetter.toUpperCase();
+      fullWord += capitalLetter;
+    }
+  }
+  return fullWord;
+}
